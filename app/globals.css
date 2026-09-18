@@ -1,13 +1,13 @@
 :root {
-  --bg: #15130f;
-  --panel: #1b1914;
-  --panel-border: #2e2a22;
-  --text: #f4efe3;
-  --text-muted: #a79c87;
-  --accent: #e8a33d;
-  --accent-soft: rgba(232, 163, 61, 0.14);
-  --card: #1f1c16;
-  --card-2: #24211a;
+  --bg: #170b0c;
+  --panel: #2a1011;
+  --panel-border: #4a1d1f;
+  --text: #f7e8e6;
+  --text-muted: #d7a7a8;
+  --accent: #d14a4a;
+  --accent-soft: rgba(209, 74, 74, 0.14);
+  --card: #2d1416;
+  --card-2: #341a1d;
 }
 
 * {
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background: radial-gradient(circle at top, #3b1718 0%, var(--bg) 40%, #100607 100%);
   color: var(--text);
   font-family: var(--font-body), "Inter", sans-serif;
   line-height: 1.5;
